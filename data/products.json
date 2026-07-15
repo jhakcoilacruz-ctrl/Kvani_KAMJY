@@ -1,0 +1,68 @@
+[
+  {
+    "id": "hoodie-phantom-black",
+    "name": "Hoodie Phantom Black",
+    "category": "hoodies",
+    "price": 120.0,
+    "sizes": ["S", "M", "L", "XL"],
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBhH2N2z6z3n7z2mQfQe1x2mQfQe1x2mQfQe1x2mQfQe1x2mQfQe1x2m",
+    "featured": true,
+    "soldOut": false,
+    "description": "Hoodie oversized en algodón pesado. Corte urbano, capucha reforzada."
+  },
+  {
+    "id": "polo-urban-decay",
+    "name": "Polo Urban Decay",
+    "category": "polos",
+    "price": 85.0,
+    "sizes": ["M", "L"],
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCpolourbandecayplaceholder",
+    "featured": true,
+    "soldOut": false,
+    "description": "Polo estampado 'KVANI // STCT 04 // DISSENT' en la espalda."
+  },
+  {
+    "id": "cargo-tech-vest",
+    "name": "Cargo Tech-Vest",
+    "category": "pantalones",
+    "price": 150.0,
+    "sizes": ["28", "30", "32", "34"],
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCcargotechvestplaceholder",
+    "featured": true,
+    "soldOut": false,
+    "description": "Pantalón cargo táctico en verde oliva profundo, estilo tech-wear."
+  },
+  {
+    "id": "crossbody-matrix",
+    "name": "Crossbody Matrix",
+    "category": "accesorios",
+    "price": 70.0,
+    "sizes": ["Talla Única"],
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBcrossbodymatrixplaceholder",
+    "featured": true,
+    "soldOut": false,
+    "description": "Bolso cruzado utilitario en nylon negro con herrajes metálicos."
+  },
+  {
+    "id": "oversized-core",
+    "name": "Oversized Core",
+    "category": "polos",
+    "price": 90.0,
+    "sizes": ["S", "M", "L"],
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCoversizedcoreplaceholder",
+    "featured": true,
+    "soldOut": false,
+    "description": "Camiseta oversized de peso pesado con parche de logo."
+  },
+  {
+    "id": "hoodie-kinetic",
+    "name": "Hoodie Kinetic",
+    "category": "hoodies",
+    "price": 130.0,
+    "sizes": ["S", "M", "L"],
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDhoodiekineticplaceholder",
+    "featured": true,
+    "soldOut": true,
+    "description": "Hoodie técnico en negro sólido, corte deportivo ajustado."
+  }
+]
