@@ -1,0 +1,39 @@
+// Esquema de base de datos - KVANI Store
+// Los productos NO viven aquí: se gestionan en /data/products.json (editable a mano).
+// La base de datos solo guarda pedidos (para el panel admin).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  // Configurado para producción en Vercel + Neon (Postgres).
+  // Si quieres correr el proyecto en tu compu con SQLite en vez de Postgres,
+  // cambia "postgresql" por "sqlite" y DATABASE_URL en .env por "file:./dev.db".
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Order {
+  id           String      @id @default(cuid())
+  customerName String
+  phone        String
+  address      String?
+  notes        String?
+  status       String      @default("pendiente") // pendiente | confirmado | enviado | entregado | cancelado
+  total        Float
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+  items        OrderItem[]
+}
+
+model OrderItem {
+  id        String @id @default(cuid())
+  orderId   String
+  order     Order  @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  productId String
+  name      String
+  price     Float
+  size      String?
+  quantity  Int
+}
