@@ -5,7 +5,7 @@
     "category": "hoodies",
     "price": 120.0,
     "sizes": ["S", "M", "L", "XL"],
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBhH2N2z6z3n7z2mQfQe1x2mQfQe1x2mQfQe1x2mQfQe1x2mQfQe1x2m",
+    "image": "/productos/hoodie-phantom-black.jpg",
     "featured": true,
     "soldOut": false,
     "description": "Hoodie oversized en algodón pesado. Corte urbano, capucha reforzada."
@@ -14,9 +14,9 @@
     "id": "polo-urban-decay",
     "name": "Polo Urban Decay",
     "category": "polos",
-    "price": 85.0,
-    "sizes": ["M", "L"],
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCpolourbandecayplaceholder",
+    "price": 60.0,
+    "sizes": ["M","S","L"]
+    "image": "/productos/polo-urban-decay.webp",
     "featured": true,
     "soldOut": false,
     "description": "Polo estampado 'KVANI // STCT 04 // DISSENT' en la espalda."
@@ -25,9 +25,9 @@
     "id": "cargo-tech-vest",
     "name": "Cargo Tech-Vest",
     "category": "pantalones",
-    "price": 150.0,
+    "price": 45.0,
     "sizes": ["28", "30", "32", "34"],
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCcargotechvestplaceholder",
+    "image": "/productos/cargo-tech-vest.webp",
     "featured": true,
     "soldOut": false,
     "description": "Pantalón cargo táctico en verde oliva profundo, estilo tech-wear."
