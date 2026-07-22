@@ -22,7 +22,7 @@ export default function Footer() {
         <div className="flex flex-col gap-md">
           <h4 className="font-label-caps text-label-caps text-tertiary uppercase tracking-widest">Contacto</h4>
           <div className="flex flex-col gap-sm">
-            <a
+            
               className="font-body-md text-body-md text-primary-fixed hover:text-tertiary transition-colors flex items-center gap-xs"
               href={`https://wa.me/${WHATSAPP_NUMBER}`}
               target="_blank"
@@ -39,7 +39,14 @@ export default function Footer() {
           <div className="flex gap-md mt-sm text-tertiary">
             <a className="hover:text-primary-fixed transition-colors" href="#">IG</a>
             <a className="hover:text-primary-fixed transition-colors" href="#">TK</a>
-            <a className="hover:text-primary-fixed transition-colors" href="#">FB</a>
+            
+              className="hover:text-primary-fixed transition-colors"
+              href="https://www.facebook.com/profile.php?id=61591868314473"
+              target="_blank"
+              rel="noreferrer"
+            >
+              FB
+            </a>
           </div>
         </div>
       </div>
